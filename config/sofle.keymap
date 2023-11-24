@@ -25,7 +25,9 @@
             then-layer = <ADJUST>;
         };
     };
-
+   &led_strip {
+       chain-length = <36>;
+   };
     keymap {
         compatible = "zmk,keymap";
 
